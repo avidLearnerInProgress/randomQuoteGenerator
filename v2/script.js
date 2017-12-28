@@ -2,9 +2,6 @@ document.write('<script type="text/javascript" src="var.js" ></script>');
     var imported = document.createElement('script');
     imported.src = 'randomColor.js';
     document.head.appendChild(imported);
-
-
-    
     
 /*      $('blockquote').text(rand);  
       $('.quote').click(function(){

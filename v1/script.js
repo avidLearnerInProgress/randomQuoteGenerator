@@ -9,11 +9,7 @@ function quoter() {
     // random array number and color generator
     var random = Math.floor((Math.random() * quotes.length));
 
-    var randColor = randomColor({
-	   					luminosity: 'light',
-                        format: 'hsla' 
-					});
-
+    var randColor = randomColor();
     // body background colour
     document.body.style.backgroundColor = randColor ;
     document.getElementById("button").style.color = randColor ;
